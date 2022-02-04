@@ -1,10 +1,20 @@
 :root {
   --default-font-family: "Poppins", sans-serif;
+  --primary-color: #6c63ff;
+}
+
+body {
+  font-family: var(--default-font-family);
 }
 
 h1,
 h2 {
   font-family: "Playfair Display", serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero h1 {
@@ -31,10 +41,23 @@ h2 {
 }
 
 .hero a {
-  background-color: #6c63ff;
+  background-color: var(--primary-color);
 
   border-radius: 4px;
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-name {
+  font-size: 64px;
+}
+
+.btn-learn-more {
+  border-radius: 4px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
