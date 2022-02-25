@@ -97,6 +97,10 @@ p {
   font-size: 18px;
 }
 
+.about-description {
+  margin-bottom: 50px;
+}
+
 .pizza-image {
   margin-bottom: 75px;
 }
@@ -171,6 +175,10 @@ p {
     font-size: 55px;
   }
 
+  .content-container {
+    margin: 50px 20px;
+  }
+
   .content-container h1 {
     font-size: 55px;
     text-align: center;
@@ -178,5 +186,18 @@ p {
 
   .pizza-image {
     margin-bottom: 30px;
+  }
+
+  .contact-box {
+    padding: 25px 20px;
+    margin-top: 100px;
+  }
+
+  .contact-box h4 {
+    font-size: 30px;
+  }
+
+  .social-link a {
+    margin: 0 20px;
   }
 }
