@@ -10,6 +10,7 @@ body {
 
 h1,
 h2,
+h3,
 h4 {
   font-family: "Playfair Display", serif;
 }
@@ -21,7 +22,7 @@ p {
 
 .hero {
   text-align: center;
-  padding: 170px 50px;
+  padding: 80px;
   background-color: var(--secondary-color);
 }
 
@@ -71,7 +72,7 @@ p {
 }
 
 .content-container {
-  margin: 130px 20px;
+  margin: 50px 20px;
 }
 
 .content-container h1 {
@@ -147,17 +148,13 @@ p {
   border-radius: 10px;
 }
 
-.contact-box h4 {
+.contact-box h3 {
   font-size: 48px;
 }
 
 @media (max-width: 768px) {
   .project-name {
     font-size: 40px;
-  }
-
-  .hero {
-    padding: 80px 25px;
   }
 
   .hero h1 {
@@ -174,10 +171,6 @@ p {
 
   .about-description h1 {
     font-size: 55px;
-  }
-
-  .content-container {
-    margin: 50px 20px;
   }
 
   .content-container h1 {
