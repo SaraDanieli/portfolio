@@ -1,6 +1,6 @@
 :root {
   --default-font-family: "Poppins", sans-serif;
-  --primary-color: #3f5e5a;
+  --primary-color: #508991;
   --secondary-color: #fffacc;
 }
 
@@ -103,10 +103,6 @@ p {
   margin-bottom: 50px;
 }
 
-.pizza-image {
-  margin-bottom: 75px;
-}
-
 .logo {
   max-width: 60px;
 }
@@ -150,6 +146,22 @@ p {
 
 .contact-box h3 {
   font-size: 48px;
+}
+
+.weather-app {
+  padding: 126.5px 0;
+}
+
+.pizza-image {
+  padding: 146px 0;
+}
+
+.sushi-project,
+.weather-app,
+.pizza-image,
+.petitions-project {
+  border: 1px solid grey;
+  border-radius: 10px;
 }
 
 .sushi-project:hover,
