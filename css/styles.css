@@ -1,7 +1,7 @@
 :root {
   --default-font-family: "Poppins", sans-serif;
-  --primary-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --primary-color: #3f5e5a;
+  --secondary-color: #fffacc;
 }
 
 body {
@@ -150,6 +150,14 @@ p {
 
 .contact-box h3 {
   font-size: 48px;
+}
+
+.sushi-project:hover,
+.weather-app:hover,
+.pizza-image:hover,
+.petitions-project:hover {
+  border: 5px solid grey;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {
