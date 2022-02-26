@@ -1,6 +1,7 @@
 :root {
   --default-font-family: "Poppins", sans-serif;
   --primary-color: #6c63ff;
+  --secondary-color: #f9f7fe;
 }
 
 body {
@@ -21,7 +22,7 @@ p {
 .hero {
   text-align: center;
   padding: 170px 50px;
-  background-color: #f9f7fe;
+  background-color: var(--secondary-color);
 }
 
 .hero h2 {
@@ -129,7 +130,7 @@ p {
   color: var(--primary-color);
   font-size: 20px;
   margin: 0 30px;
-  background-color: #f9f7fe;
+  background-color: var(--secondary-color);
   padding: 15px 20px;
   border-radius: 50%;
 }
@@ -141,7 +142,7 @@ p {
 
 .contact-box {
   padding: 25px 100px;
-  background-color: #f9f7fe;
+  background-color: var(--secondary-color);
   margin: 200px 0 50px;
   border-radius: 10px;
 }
